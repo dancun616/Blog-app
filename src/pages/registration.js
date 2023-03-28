@@ -29,7 +29,7 @@ export default function Registration() {
     
     return (
         <div>
-            <h1>Kindly fill in your registration details in order to gain access.</h1>
+            <h1>registration.</h1>
             <form className="form" onSubmit={event => handleSubmit(event)}>
                 <label>Username:</label>
                 <input type="text" placeholder="Please create your username" value={user_name} onChange={e => SetUsername(e.target.value)}></input>
