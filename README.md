@@ -1,38 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todo-frotend app
 
-## Getting Started
+# Description
+This app enables authorised users to view todos, create, update and delete todos.
 
-First, run the development server:
+# Installation
+## Alternative one
+Use the doployment link provided below to access the app:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Alternative two
+Open the terminal on your computer and fork and clone the repository from github:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+cd into the directory:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+        cd todo-frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open the folder in vscode:
 
-## Learn More
+        code .
+    
+# Running the application 
+Open the terminal on vscode and run the command:
 
-To learn more about Next.js, take a look at the following resources:
+        npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This will install necessary dependencies.
+To run the application locally, use the command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+        npm run dev
 
-## Deploy on Vercel
+This will start the server which can br accessed by clicking on the generated link
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# APP features
+In the app, there is a homepage which comtains a short description about the app and a login link.Click on the login link in order to be directed to a login page where a user can fill the form to log in.New users can click the register link in order to be directed to a registration page for registering.Once the user is logged in/registered, They will be directed to a dashboard containing a list of todos and a navigation bar with a create-todo link.This link directs the user to a form which when filled generates a new todo with the filled data.In the dashdoard, each todo has a delete button to delete a todo and an update todo link which takes the user to a form for updating the todos.I hope you enjoy the app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Details of Author
+ This challenge was contributed by:
+
+# License
+-[MIT]
