@@ -47,8 +47,8 @@ export default function Dash() {
                 <h2>{todo.description}</h2>
                 <h2>{todo.status}</h2>
                 <h3>{todo.priority}</h3>
-                <button onClick={() => handleDelete(todo.id)}>Delete Todo</button>
-                <Link href="/update">Update Todo</Link>
+                <button onClick={() => handleDelete(todo.id)}>Delete</button>
+                <Link href="/update">Update</Link>
             </div>
             )}
             
